@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will you be my Valentine?</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .gif {
+            margin-top: 20px;
+        }
+        .buttons {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Will you be my Valentine?</h1>
+    <div class="gif">
+        <img src="1.gif" alt="Valentine's Day GIF">
+    </div>
+    <div class="question">
+        <p>Will you be my Valentine?</p>
+    </div>
+    <div class="buttons">
+        <button onclick="handleYes()">Yes</button>
+        <button onclick="handleNo()">No</button>
+    </div>
+
+    <script>
+        function handleYes() {
+            window.location.href = "yes.html";
+        }
+
+        function handleNo() {
+            location.reload();
+        }
+    </script>
+</body>
+</html>
